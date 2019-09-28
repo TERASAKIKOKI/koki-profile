@@ -8,6 +8,7 @@ Greenish Blue: #34c6d3 (Buttons, Icons, Lines & Bckgrounds)
 Steel Gray:  #41464b (Headings)
 Blue Bayoux: #64707b (Paragraphs)
 white: #fff (text with black backgrounds)
+#f7f7f7: backgrounds
 Black: #000 ()
 
 ==================================================== */
@@ -110,7 +111,8 @@ h3 {
   color: #fff;
 }
 
-.btn-white:hover, .btn-white:focus {
+.btn-white:hover,
+.btn-white:focus {
   background-color: #fff;
   color: #41464b;
 }
@@ -125,5 +127,63 @@ h3 {
 .btn-green:focus {
   background-color: transparent;
   color: #fff;
+}
+
+.btn-green-black {
+  background-color: #34c6d3;
+  color: #fff;
+  border-color: #34c6d3;
+}
+
+.btn-green-black:hover,
+.btn-green-black:focus {
+  background-color: transparent;
+  color: #64707b;
+}
+
+/* ================================================
+                  CONTENT (Generic)
+==================================================== */
+.content-box {
+  padding: 60px 0 60px 0;
+}
+
+.content-title h3 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+
+.content-title-underline {
+  width: 30px;
+  height: 3px;
+  background-color: #34c6d3;
+  margin: 0 auto 50px auto;
+}
+
+/* ================================================
+                  ABOUT
+==================================================== */
+#about {
+  background-color: #f7f7f7;
+}
+
+#about-title h4 {
+  text-align: center;
+}
+
+.about-img {
+  text-align: center;
+}
+
+.about-img img {
+  height: 400px;
+  position: center;
+}
+
+#about-btn {
+  text-align: center;
+  margin-top: 48px;
 }
 /*# sourceMappingURL=style.css.map */
