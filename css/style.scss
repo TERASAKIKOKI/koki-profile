@@ -206,5 +206,67 @@ h3 {
    border: 1px solid #34c6d3
 }
 
+/* ================================================
+                  SKILLS
+==================================================== */
 
 
+
+/* ================================================
+                  CONTACT
+==================================================== */
+
+
+
+
+
+/* ================================================
+                  FOOTER
+==================================================== */
+footer {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.footer-top ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.footer-top ul li {
+  display: inline-block;
+}
+
+#footer-copyrights p {
+  margin: 0;
+  color: #fff;
+}
+
+.footer-menu {
+  float: left;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+#footer-menu ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+#footer-menu ul li {
+  display: inline-block;
+}
+
+#footer-menu a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+#footer-menu a:hover{
+  color: #34c6d3;
+}
