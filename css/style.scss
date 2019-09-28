@@ -56,9 +56,12 @@ h3 {
   background-attachment: fixed;
 }
 
-#home-cover::before {
-  background-color: rgba(0, 0, 0, 0.4);
+
+
+#home-content-box {
+  background-color: rgba(0, 0, 0, 0.5);
 }
+// 背景を暗くするときは親要素に画像を入れて、その子要素で暗さを調整する
 
 #home-content-box {
   width: 100%;
@@ -119,3 +122,16 @@ h3 {
   background-color: #fff;
   color: #41464b;
 }
+
+.btn-green {
+  background-color: #34c6d3;
+  color: #fff;
+  border-color: #34c6d3;
+}
+
+.btn-green:hover,
+.btn-green:focus {
+  background-color: transparent;
+  color: #fff;
+}
+
