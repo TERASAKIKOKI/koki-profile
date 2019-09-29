@@ -206,16 +206,31 @@ h3 {
                   FOOTER
 ==================================================== */
 footer {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
-.footer-top ul {
+#footer-top {
+  margin: 20px 0;
+}
+
+#footer-top a {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+#footer-top a:hover {
+  color: #34c6d3;
+}
+
+#footer-top ul {
   list-style: none;
   padding-left: 0;
   margin: 0;
 }
 
-.footer-top ul li {
+#footer-top ul li {
   display: inline-block;
 }
 
@@ -224,11 +239,12 @@ footer {
   color: #fff;
 }
 
-.footer-menu {
+#footer-menu {
   float: left;
   color: #fff;
   font-size: 16px;
   font-weight: 300;
+  padding-bottom: 20px;
 }
 
 #footer-menu ul {
@@ -239,12 +255,13 @@ footer {
 
 #footer-menu ul li {
   display: inline-block;
+  color: #fff;
 }
 
 #footer-menu a {
   color: #fff;
   font-size: 16px;
-  font-weight: 300px;
+  font-weight: 300;
   margin: 0 10px;
   text-decoration: none;
 }
