@@ -199,9 +199,21 @@ h3 {
 /* ================================================
                   SKILLS
 ==================================================== */
+#skills {
+  background-color: #f7f7f7;
+}
+
 /* ================================================
                   CONTACT
 ==================================================== */
+.form-control {
+  margin-bottom: 20px;
+}
+
+.send-btn {
+  float: right;
+}
+
 /* ================================================
                   FOOTER
 ==================================================== */
@@ -267,6 +279,34 @@ footer {
 }
 
 #footer-menu a:hover {
+  color: #34c6d3;
+}
+
+/* ================================================
+                  NAVBAR
+==================================================== */
+nav.navbar {
+  background-color: #41464b;
+}
+
+.navbar-brand {
+  color: #fff;
+}
+
+.navbar-nav {
+  float: right;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+  background: none;
   color: #34c6d3;
 }
 /*# sourceMappingURL=style.css.map */

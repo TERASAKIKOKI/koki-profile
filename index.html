@@ -27,30 +27,32 @@
 <body>
 
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#home">Koki's Profile</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <nav class="navbar navbar-expand-lg fixed-top" role="navigation">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#home">Koki's Profile</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#works">Works</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#works">Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </div>
       </div>
     </nav>
   </header>
@@ -73,6 +75,8 @@
     </div>
   </section>
 
+
+<!-- About -->
   <section id="about">
     <div class="content-box">
       <div class="content-title">
@@ -112,6 +116,7 @@
     </div>
   </section>
 
+  <!-- Works -->
   <section id="works">
     <div class="content-box">
       <div class="content-title">
@@ -145,6 +150,7 @@
     </div><!-- end content-box  -->
   </section>
 
+  <!-- Skills -->
   <section id="skills">
     <div class="content-box">
       <div class="content-title">
@@ -170,6 +176,9 @@
     </div><!-- end content-box  -->
   </section>
 
+
+
+  <!-- Contact -->
   <div id="contact">
     <div class="content-box">
 
@@ -188,7 +197,7 @@
               <input type="email" name="email" placeholder="メールアドレス" class="form-control">
               <textarea name="message" rows="5" placeholder="お問い合わせ内容" class="form-control"></textarea>
               <div class="send-btn">
-                <a href="#" class="btn btn-lg btn-general" role="button">フォームを送信</a>
+                <a href="#" class="btn btn-lg btn-green-black" role="button">フォームを送信</a>
               </div>
             </div>
           </div>
@@ -202,7 +211,6 @@
 
     </div>
   </div>
-
 
   <footer>
     <div class="container">
