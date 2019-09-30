@@ -182,6 +182,7 @@ h3 {
 
 #about-title h4 {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .about-img {
@@ -190,6 +191,27 @@ h3 {
     height: 400px;
     position: center;
   }
+}
+
+.about-sosial {
+  display:flex;
+  justify-content: center;
+}
+
+.about-social-list li {
+  list-style: none;
+  display: inline-block;
+}
+
+.about-social-list li a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #64707b;
+  margin: 20px;
+}
+
+.about-social-list li a:hover {
+  color: #34c6d3;
 }
 
 #about-btn {
@@ -310,16 +332,12 @@ footer {
 .navbar-brand {
   color: #fff;
   width: 80%;
-  a&:hover{
-    background: none;
-    color: #34c6d3;
-  }
 }
 
-// a.navbar-brand:hover, a.navbar-brand:focus {
-//   background: none;
-//   color: #34c6d3;
-// }
+a.navbar-brand:hover, a.navbar-brand:focus {
+  background: none;
+  color: #34c6d3;
+}
 
 .nav-link  {
   color: #fff;
