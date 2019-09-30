@@ -303,21 +303,23 @@ footer {
 /* ================================================
                   NAVBAR
 ==================================================== */
-// .navbar {
-//   transition: all .5s ease-in-out;
-// }
-
-nav.navbar {
-  background-color: #41464b; //仮の色
+.navbar {
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .navbar-brand {
   color: #fff;
+  width: 80%;
+  a&:hover{
+    background: none;
+    color: #34c6d3;
+  }
 }
 
-.navbar-nav {
-  float: right;
-}
+// a.navbar-brand:hover, a.navbar-brand:focus {
+//   background: none;
+//   color: #34c6d3;
+// }
 
 .nav-link  {
   color: #fff;
@@ -328,6 +330,15 @@ nav.navbar {
 }
 
  .navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
-   background: none;
-   color: #34c6d3;
+  background: none;
+  color: #34c6d3;
+ }
+
+ .navbar-toggler {
+   background-color: rgba(0, 0, 0, 0.1);
+   border: 1px solid #fff;
+ }
+
+ .navbar-toggler-icon {
+  background-image: url(../img/dehaze-24px.svg);
  }

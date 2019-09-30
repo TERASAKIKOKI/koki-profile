@@ -285,16 +285,18 @@ footer {
 /* ================================================
                   NAVBAR
 ==================================================== */
-nav.navbar {
-  background-color: #41464b;
+.navbar {
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .navbar-brand {
   color: #fff;
+  width: 80%;
 }
 
-.navbar-nav {
-  float: right;
+a.navbar-brand:hover, a.navbar-brand:focus {
+  background: none;
+  color: #34c6d3;
 }
 
 .nav-link {
@@ -308,5 +310,14 @@ nav.navbar {
 .navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
   background: none;
   color: #34c6d3;
+}
+
+.navbar-toggler {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid #fff;
+}
+
+.navbar-toggler-icon {
+  background-image: url(../img/dehaze-24px.svg);
 }
 /*# sourceMappingURL=style.css.map */
