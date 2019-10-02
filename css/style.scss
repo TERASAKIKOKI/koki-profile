@@ -108,7 +108,7 @@ h3 {
 .btn-general {
   border-color: #fff;
   border-width: 2px;
-  border-radius: 0;
+  border-radius: 4px;
   padding: 12px 26px 12px 26px;
   font-size: 16px;
   font-weight: 400;
@@ -130,6 +130,8 @@ h3 {
   background-color: #34c6d3;
   color: #fff;
   border-color: #34c6d3;
+  border-radius: 4px;
+
 }
 
 .btn-green:hover,
@@ -142,6 +144,10 @@ h3 {
   background-color: #34c6d3;
   color: #fff;
   border-color: #34c6d3;
+  padding: 12px 26px 12px 26px;
+  font-size: 16px;
+  font-weight: 400;
+
 }
 
 .btn-green-black:hover,
@@ -228,6 +234,14 @@ h3 {
    border: 1px solid #34c6d3
 }
 
+.card-btn {
+  text-align: center;
+}
+
+.card-body p {
+  margin: 30px 0 25px 40px;
+}
+
 /* ================================================
                   SKILLS
 ==================================================== */
@@ -258,6 +272,7 @@ h3 {
 .skill-item-desc ul li {
   font-size: 20px;
   padding-bottom: 5px;
+  margin-left: 25px;
 }
 
 .skill-item-desc ul li .skill-icon {
