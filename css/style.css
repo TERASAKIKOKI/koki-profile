@@ -83,6 +83,31 @@ h3 {
 }
 
 /* ================================================
+                  animation
+==================================================== */
+#home-heading,
+#home-cover,
+#home-btn {
+  -webkit-animation-duration: .5s;
+          animation-duration: .5s;
+}
+
+#home-cover {
+  -webkit-animation-delay: .1s;
+          animation-delay: .1s;
+}
+
+#home-heading {
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s;
+}
+
+#home-btn {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+/* ================================================
                   PARALLAX (Generic)
 ==================================================== */
 .bg-parallax {
@@ -381,7 +406,7 @@ footer {
 /* ================================================
                   NAVBAR
 ==================================================== */
-.navbar {
+.top-nav {
   background-color: rgba(0, 0, 0, 0.7);
 }
 

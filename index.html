@@ -25,7 +25,7 @@
   <link rel="stylesheet" href="./css/style.css">
 
   <!-- responsive CSS -->
-  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
@@ -62,14 +62,14 @@
 
   <!-- Home -->
   <section id="home">
-    <div class="bg-parallax" id="home-cover">
+    <div class="bg-parallax animated fadeIn" id="home-cover">
       <div id="home-content-box">
         <div class="text-center" id="home-content-box-inner">
-          <div id="home-heading">
+          <div class="animated zoomIn" id="home-heading">
             <h3>Hello World</h3>
             <p>Koki Terasaki's Portfolio Site</p>
           </div>
-          <div id="home-btn">
+          <div class="animated zoomIn" id="home-btn">
             <a class="btn btn-lg btn-general btn-green" href="#works" role="button" title="View my work">View My Work</a>
           </div>
         </div>
@@ -81,7 +81,7 @@
   <!-- About -->
   <section id="about">
     <div class="content-box">
-      <div class="content-title">
+      <div class="content-title wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
         <h3> About </h3>
         <div class="content-title-underline"></div>
       </div>
@@ -89,13 +89,13 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <div class="about-img">
+            <div class="about-img wow fadeInLeft">
               <img src="./img/about-img-min.png" alt="myphoto">
             </div>
           </div>
 
           <div class="col-md-6">
-            <div id="about-content-box">
+            <div id="about-content-box" class=" wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
               <div id="about-title">
                 <h4>KOKI TERASAKI</h4>
               </div>
@@ -133,13 +133,13 @@
   <!-- Works -->
   <section id="works">
     <div class="content-box">
-      <div class="content-title">
+      <div class="content-title wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
         <h3> my work </h3>
         <div class="content-title-underline"></div>
       </div>
 
       <div class="container">
-        <div class="row">
+        <div class="row wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s"">
 
           <div class="col-md-4">
             <div class="card">
@@ -203,7 +203,7 @@
   <!-- Skills -->
   <section id="skills">
     <div class="content-box">
-      <div class="content-title">
+      <div class="content-title wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
         <h3> skills </h3>
         <div class="content-title-underline"></div>
       </div>
@@ -213,10 +213,10 @@
 
           <div class="col-md-4">
             <div class="skill-item text-center">
-              <div class="skill-item-title">
+              <div class="skill-item-title wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
                 <h3><i class="fas fa-laptop-code"></i> Front End</h3>
               </div>
-              <div class="skill-item-desc">
+              <div class="skill-item-desc wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                 <ul class="skill-list text-left">
                   <li><i class="fab fa-html5 skill-icon" id="html"></i> HTML</li>
                   <li><i class="fab fa-css3-alt skill-icon" id="css"></i> CSS/SASS</li>
@@ -228,10 +228,10 @@
 
           <div class="col-md-4">
             <div class="skill-item text-center">
-              <div class="skill-item-title">
+              <div class="skill-item-title wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
                 <h3><i class="fas fa-server"></i> Server side</h3>
               </div>
-              <div class="skill-item-desc">
+              <div class="skill-item-desc wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                 <ul class="skill-list text-left">
                   <li><img src="/img/ruby.png" class="skill-icon" class="ruby" alt=""> Ruby</li>
                   <li><img src="/img/ruby.png" class="skill-icon" class="ruby" alt=""> Ruby on Rails</li>
@@ -242,10 +242,10 @@
 
           <div class="col-md-4">
             <div class="skill-item text-center">
-              <div class="skill-item-title">
+              <div class="skill-item-title wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
                 <h3><i class="fas fa-chart-bar"></i> Web Marketing</h3>
               </div>
-              <div class="skill-item-desc">
+              <div class="skill-item-desc wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                 <ul class="skill-list text-left">
                   <li><i class="far fa-newspaper skill-icon" id="contentmarketing"></i> コンテンツマーケティング</li>
                   <li><i class="fas fa-pen skill-icon" id="wrting"></i> ライティング</li>
@@ -355,9 +355,6 @@
 
   <!-- WOW JS -->
   <script src="js/wow/wow.min.js"></script>
-
-  <!-- magnific popup -->
-  <script src="js/magnificpopup/jquery.magnific-popup.min.js"></script>
 
   <!-- custom JS -->
   <script src="js/custome.js"></script>

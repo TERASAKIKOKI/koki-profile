@@ -91,6 +91,28 @@ h3 {
   }
 }
 
+ /* ================================================
+                  animation
+==================================================== */
+#home-heading, 
+#home-cover,
+#home-btn {
+  animation-duration: .5s;
+}
+
+#home-cover {
+  animation-delay: .1s;
+}
+
+#home-heading {
+ animation-delay: .5s;
+}
+
+#home-btn {
+ animation-delay: 1s;
+}
+
+
 /* ================================================
                   PARALLAX (Generic)
 ==================================================== */
@@ -397,7 +419,8 @@ footer {
 /* ================================================
                   NAVBAR
 ==================================================== */
-.navbar {
+
+.top-nav {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -432,3 +455,7 @@ a.navbar-brand:hover, a.navbar-brand:focus {
  .navbar-toggler-icon {
   background-image: url(../img/dehaze-24px.svg);
  }
+
+
+
+
