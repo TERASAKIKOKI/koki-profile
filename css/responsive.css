@@ -1,3 +1,22 @@
 /* ================================================
                   Bootstrap 4 Media Queries
 ==================================================== */
+/* Large Dvices */
+@media (min-width: 1200px) {
+  /* OK */
+}
+
+/* medium devices ()*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* small devices */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* extra small devices */
+@media (max-width: 767px) {
+  
+}
