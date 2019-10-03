@@ -8,25 +8,88 @@
 
 /* medium devices ()*/
 @media (min-width: 992px) and (max-width: 1199px) {
+  /* about */
+  #about-content-box p {
+    padding-right: 20px;
+  }
 
+  .about-social-list li a{
+    font-size: 20px;
+  }
+
+  /* skill */
+  .card-body p {
+    margin-left: 20px;
+  }
 }
 
 /* small devices */
 @media (min-width: 768px) and (max-width: 991px) {
+  /* about */
+  .card-body p {
+    margin-left: 0;
+    font-size: 14px;
+  }
 
+  /* skillを立てに並べたい */
 }
 
 /* extra small devices */
 @media (max-width: 767px) {
+  /* about */
+  #about-title h4 {
+    margin: 20px 0;
+  }
+
+  /* work */
+  .work-card {
+    margin-bottom: 40px;
+  }
+
+  
+  .skill-box {
+    margin-bottom: 30px;
+  }
+
+  .skill-item-title h3 {
+    font-size: 25px;
+  }
+
+  .skill-item-desc ul li {
+    margin-left: 135px;
+  }
+
+  /* footer */
+  #footer-copyrights {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  /* フッターメニューを消すか中央揃え */
 
 }
 
 /* extra small devices */
 @media (max-width: 480px) {
+  
+  .skill-item-desc ul li {
+    margin-left: 52px;
+  }
+
+  .navbar-toggler {
+    display: contents;
+  }
+
+  .navbar-nav {
+    float:right;
+  }
+  
 
 }
 
 /* extra small devices */
 @media (max-width: 320px) {
-  
+  .skill-item-desc ul li {
+    margin-left: 52px;
+  }
 }
