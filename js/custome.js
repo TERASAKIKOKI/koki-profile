@@ -25,7 +25,12 @@ $(function () {
   });
 });
 
-//smooth scrolling
+// Scrollspy
+
+
+
+
+//smooth scrolling 動かない
 $(function(){
   $('a[href^="#"]').click(function(){
     //スクロール速度
@@ -41,3 +46,4 @@ $(function(){
     return false;
   });
 });
+
